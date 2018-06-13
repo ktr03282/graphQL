@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "outDir": "./public/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "target": "es5",
+    "module": "commonjs",
+    "noLib": false,
+    "allowJs": false,
+    "removeComments": true,
+    "strictNullChecks": true
+  },
+  "files": [
+    "./src/index.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
